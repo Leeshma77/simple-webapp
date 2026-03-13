@@ -3,13 +3,10 @@ version: 0.2
 phases:
   install:
     commands:
-      - echo "No dependencies to install for a static site."
+      - echo "Install phase"
   build:
     commands:
-      - echo "Building (nothing to compile) ..."
-
+      - echo "Build phase - nothing to compile for static site"
 artifacts:
   files:
-    - '**/*'
-  base-directory: .
-``
+    - "**/*"
